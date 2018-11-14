@@ -5,6 +5,10 @@
  */
 package travislab;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Predicate;
+
 /**
  *
  * @author JuliusGarma
@@ -18,6 +22,16 @@ public class Hello {
     {
         // TODO code application logic here
         System.out.println("Hello World");
+    }
+    
+    public static <T> int linearSearch(List<T> list, Predicate<T> check)
+    {
+        list = new ArrayList<T>();
+        for(int i = 0; i < list.size(); i++)
+        {
+            
+        }
+        return -1;
     }
     
 }
